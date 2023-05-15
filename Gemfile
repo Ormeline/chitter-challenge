@@ -2,12 +2,15 @@ source 'https://rubygems.org'
 
 ruby '3.0.2'
 
-group :test do
-  gem 'rspec'
-  gem 'simplecov', require: false
-  gem 'simplecov-console', require: false
-end
-
-group :development, :test do
-  gem 'rubocop', '1.20'
-end
+gem 'bcrypt-ruby'
+gem 'data_mapper'
+gem 'pg'
+gem 'rack-flash3'
+gem 'sinatra'
+gem 'sinatra-partial'
+gem 'capybara'
+gem 'database_cleaner'
+gem 'rspec'
+gem 'rspec-sinatra'
+gem 'rubocop'
+gem 'rubocop-rspec'
